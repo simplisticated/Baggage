@@ -16,6 +16,7 @@
 		69ADF5E71C5579B200A7D4BC /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69ADF5E51C5579B200A7D4BC /* MainViewController.xib */; };
 		69ADF5ED1C557BD600A7D4BC /* StringExtensionClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ADF5EC1C557BD600A7D4BC /* StringExtensionClipboard.swift */; };
 		69ADF5F41C557E2300A7D4BC /* UITextFieldExtensionClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ADF5F31C557E2300A7D4BC /* UITextFieldExtensionClipboard.swift */; };
+		69ADF5F71C5583AF00A7D4BC /* UITextViewExtensionClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ADF5F61C5583AF00A7D4BC /* UITextViewExtensionClipboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		69ADF5E51C5579B200A7D4BC /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		69ADF5EC1C557BD600A7D4BC /* StringExtensionClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionClipboard.swift; sourceTree = "<group>"; };
 		69ADF5F31C557E2300A7D4BC /* UITextFieldExtensionClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensionClipboard.swift; sourceTree = "<group>"; };
+		69ADF5F61C5583AF00A7D4BC /* UITextViewExtensionClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewExtensionClipboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				69ADF5F21C557E0900A7D4BC /* TextField */,
+				69ADF5F51C55839800A7D4BC /* UITextView */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -202,6 +205,14 @@
 				69ADF5F31C557E2300A7D4BC /* UITextFieldExtensionClipboard.swift */,
 			);
 			path = TextField;
+			sourceTree = "<group>";
+		};
+		69ADF5F51C55839800A7D4BC /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				69ADF5F61C5583AF00A7D4BC /* UITextViewExtensionClipboard.swift */,
+			);
+			path = UITextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69ADF5F41C557E2300A7D4BC /* UITextFieldExtensionClipboard.swift in Sources */,
+				69ADF5F71C5583AF00A7D4BC /* UITextViewExtensionClipboard.swift in Sources */,
 				69ADF5ED1C557BD600A7D4BC /* StringExtensionClipboard.swift in Sources */,
 				69ADF5B41C55793300A7D4BC /* AppDelegate.swift in Sources */,
 				69ADF5E61C5579B200A7D4BC /* MainViewController.swift in Sources */,
