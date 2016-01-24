@@ -1,5 +1,5 @@
 <p align="center" >
-<img src="https://github.com/igormatyushkin014/Baggage/blob/master/Logo/logo-1024-500.png" alt="Baggage" title="Baggage">
+<img src="https://github.com/igormatyushkin014/Baggage/blob/master/Logo/logo-1024-300.png" alt="Baggage" title="Baggage">
 </p>
 
 # Baggage
