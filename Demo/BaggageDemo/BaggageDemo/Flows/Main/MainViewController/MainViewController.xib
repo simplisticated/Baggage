@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="BaggageDemo" customModuleProvider="target">
             <connections>
+                <outlet property="copyAndPasteButton" destination="Jq1-Hg-tvi" id="mVj-3G-90s"/>
                 <outlet property="resultTextField" destination="HqN-gd-J0h" id="Y0u-s7-NY1"/>
                 <outlet property="sourceTextField" destination="0sA-SH-QIb" id="3Td-cP-kJB"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>

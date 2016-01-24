@@ -25,9 +25,15 @@ public extension String {
     
     // MARK: Public object methods
     
-    public func bg_copyToClipboard() {
+    public func bg_copyToClipboard() -> Bool {
+        guard !isEmpty else {
+            return false
+        }
+        
         let pasteboard = UIPasteboard.generalPasteboard()
         pasteboard.string = self
+        
+        return true
     }
     
     

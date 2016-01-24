@@ -15,6 +15,7 @@
 		69ADF5E61C5579B200A7D4BC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ADF5E41C5579B200A7D4BC /* MainViewController.swift */; };
 		69ADF5E71C5579B200A7D4BC /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69ADF5E51C5579B200A7D4BC /* MainViewController.xib */; };
 		69ADF5ED1C557BD600A7D4BC /* StringExtensionClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ADF5EC1C557BD600A7D4BC /* StringExtensionClipboard.swift */; };
+		69ADF5F41C557E2300A7D4BC /* UITextFieldExtensionClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ADF5F31C557E2300A7D4BC /* UITextFieldExtensionClipboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		69ADF5E41C5579B200A7D4BC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		69ADF5E51C5579B200A7D4BC /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		69ADF5EC1C557BD600A7D4BC /* StringExtensionClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionClipboard.swift; sourceTree = "<group>"; };
+		69ADF5F31C557E2300A7D4BC /* UITextFieldExtensionClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensionClipboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				69ADF5EB1C557BCB00A7D4BC /* String */,
+				69ADF5F11C557E0900A7D4BC /* UI */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -183,6 +186,22 @@
 				69ADF5EC1C557BD600A7D4BC /* StringExtensionClipboard.swift */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		69ADF5F11C557E0900A7D4BC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				69ADF5F21C557E0900A7D4BC /* TextField */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		69ADF5F21C557E0900A7D4BC /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				69ADF5F31C557E2300A7D4BC /* UITextFieldExtensionClipboard.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69ADF5F41C557E2300A7D4BC /* UITextFieldExtensionClipboard.swift in Sources */,
 				69ADF5ED1C557BD600A7D4BC /* StringExtensionClipboard.swift in Sources */,
 				69ADF5B41C55793300A7D4BC /* AppDelegate.swift in Sources */,
 				69ADF5E61C5579B200A7D4BC /* MainViewController.swift in Sources */,
