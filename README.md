@@ -33,7 +33,7 @@ str.bg_copyToClipboard()
 Get string from clipboard:
 
 ```swift
-let str = String.bg_stringFromClipboard
+let str = String.bg_stringFromClipboard()
 NSLog(str) // Some text
 ```
 
