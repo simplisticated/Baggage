@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="BaggageDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="resultTextField" destination="HqN-gd-J0h" id="Y0u-s7-NY1"/>
+                <outlet property="sourceTextField" destination="0sA-SH-QIb" id="3Td-cP-kJB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Input something:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ukw-uO-9Fg">
+                    <rect key="frame" x="20" y="16" width="560" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="vC6-gA-ohC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jq1-Hg-tvi">
+                    <rect key="frame" x="179" y="93" width="243" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="onS-ZK-83t"/>
+                        <constraint firstAttribute="width" constant="243" id="yfs-2d-LW0"/>
+                    </constraints>
+                    <state key="normal" title="Copy &amp; Paste to text field below"/>
+                    <connections>
+                        <action selector="copyAndPasteButtonTapped:" destination="-1" eventType="touchUpInside" id="pLY-zx-o98"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HqN-gd-J0h">
+                    <rect key="frame" x="20" y="131" width="560" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="uqr-ZH-3gS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0sA-SH-QIb">
+                    <rect key="frame" x="20" y="45" width="560" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="FeQ-lv-xgm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Jq1-Hg-tvi" firstAttribute="top" secondItem="0sA-SH-QIb" secondAttribute="bottom" constant="18" id="3f0-ra-CnW"/>
+                <constraint firstItem="HqN-gd-J0h" firstAttribute="leading" secondItem="0sA-SH-QIb" secondAttribute="leading" id="3wU-4o-9eb"/>
+                <constraint firstAttribute="trailing" secondItem="ukw-uO-9Fg" secondAttribute="trailing" constant="20" id="9WJ-pG-pGb"/>
+                <constraint firstItem="HqN-gd-J0h" firstAttribute="top" secondItem="Jq1-Hg-tvi" secondAttribute="bottom" constant="8" id="9dZ-c9-DG3"/>
+                <constraint firstItem="ukw-uO-9Fg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="16" id="KOc-wv-pu9"/>
+                <constraint firstItem="ukw-uO-9Fg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Nt7-cL-tZ1"/>
+                <constraint firstItem="0sA-SH-QIb" firstAttribute="trailing" secondItem="ukw-uO-9Fg" secondAttribute="trailing" id="exv-34-IEi"/>
+                <constraint firstItem="0sA-SH-QIb" firstAttribute="leading" secondItem="ukw-uO-9Fg" secondAttribute="leading" id="rea-mH-yge"/>
+                <constraint firstItem="0sA-SH-QIb" firstAttribute="top" secondItem="ukw-uO-9Fg" secondAttribute="bottom" constant="8" id="xY3-NG-cYH"/>
+                <constraint firstItem="Jq1-Hg-tvi" firstAttribute="centerX" secondItem="0sA-SH-QIb" secondAttribute="centerX" id="zlb-mS-rD6"/>
+                <constraint firstItem="HqN-gd-J0h" firstAttribute="trailing" secondItem="0sA-SH-QIb" secondAttribute="trailing" id="zwX-bn-4sa"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="388" y="389"/>
+        </view>
+    </objects>
+</document>
