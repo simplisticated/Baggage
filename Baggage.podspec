@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-Baggage provides extensions for native classes in iOS SDK for purpose of simplifying work with clipboard. Written in Swift.
+Baggage is a set of extensions for iOS SDK that simplify work with clipboard. Written in Swift.
                    DESC
 
   s.homepage     = "https://github.com/igormatyushkin014/Baggage"
