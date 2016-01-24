@@ -4,7 +4,7 @@
 
 # Baggage
 
-Simplifying work with clipboard in iOS.
+Baggage is a set of extensions for iOS SDK classes that simplify work with clipboard.
 
 ##How To Get Started
 
