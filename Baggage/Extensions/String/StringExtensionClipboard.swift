@@ -14,7 +14,7 @@ public extension String {
     // MARK: Public static methods
     
     public static func bg_stringFromClipboard() -> String? {
-        let pasteboard = UIPasteboard.generalPasteboard()
+        let pasteboard = UIPasteboard.general
         let resultString = pasteboard.string
         return resultString
     }
@@ -30,7 +30,7 @@ public extension String {
             return false
         }
         
-        let pasteboard = UIPasteboard.generalPasteboard()
+        let pasteboard = UIPasteboard.general
         pasteboard.string = self
         
         return true

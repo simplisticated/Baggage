@@ -8,16 +8,18 @@
 
 ##How To Get Started
 
-- Copy content of `Source` folder to your project.
+- Copy content of `Baggage` folder to your project.
 
 or
 
 - Use `Baggage` cocoapod
 
+**Note**:
+
 ## Requirements
 
-* iOS 8 and later
-* Xcode 7 and later
+* iOS 9.0 and later
+* Xcode 8 and later
 
 ## Usage
 

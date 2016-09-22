@@ -19,12 +19,14 @@ public extension UITextField {
     
     // MARK: Public object methods
     
+    @discardableResult
     public func bg_copyTextToClipboard() -> Bool {
         let currentText = text ?? ""
         let copiedToClipboard = currentText.bg_copyToClipboard()
         return copiedToClipboard
     }
     
+    @discardableResult
     public func bg_pasteTextFromClipboard() -> Bool {
         let textFromClipboard = String.bg_stringFromClipboard()
         

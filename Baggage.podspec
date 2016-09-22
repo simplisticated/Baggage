@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Baggage"
-  s.version      = "1.0"
+  s.version      = "3.0"
   s.summary      = "Simplifying work with clipboard in iOS."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Baggage is a set of extensions for iOS SDK that simplify work with clipboard. Wr
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Source", "Source/**/*"
+  s.source_files  = "Baggage", "Baggage/**/*"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

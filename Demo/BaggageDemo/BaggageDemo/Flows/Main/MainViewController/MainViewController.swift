@@ -36,6 +36,12 @@ class MainViewController: UIViewController, UITextFieldDelegate {
     
     // MARK: Variables & properties
     
+    override var prefersStatusBarHidden: Bool {
+        get {
+            return true
+        }
+    }
+    
     
     // MARK: Public methods
     
@@ -50,16 +56,12 @@ class MainViewController: UIViewController, UITextFieldDelegate {
         
         // Initialize copy and paste button
         
-        copyAndPasteButton.enabled = false
+        copyAndPasteButton.isEnabled = false
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    override func prefersStatusBarHidden() -> Bool {
-        return true
     }
     
     
@@ -82,15 +84,15 @@ class MainViewController: UIViewController, UITextFieldDelegate {
     
     // MARK: Protocol methods
     
-    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if textField == sourceTextField {
             let currentText = textField.text ?? ""
-            let textAfterReplacement = (currentText as NSString).stringByReplacingCharactersInRange(range, withString: string)
+            let textAfterReplacement = (currentText as NSString).replacingCharacters(in: range, with: string)
             
             let textAfterReplacementIsEmpty = textAfterReplacement.isEmpty
             
             let shouldEnableCopyAndPasteButton = !textAfterReplacementIsEmpty
-            copyAndPasteButton.enabled = shouldEnableCopyAndPasteButton
+            copyAndPasteButton.isEnabled = shouldEnableCopyAndPasteButton
             
             return true
         } else {
