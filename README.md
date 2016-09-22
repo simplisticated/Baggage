@@ -2,7 +2,14 @@
 <img src="https://github.com/igormatyushkin014/Baggage/blob/master/Logo/logo-1024-300.png" alt="Baggage" title="Baggage">
 </p>
 
-# Baggage
+<p align="center">
+<a href="https://swift.org"><img src="https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat"></a>
+<a href="https://cocoapods.org"><img src="https://img.shields.io/cocoapods/v/Baggage.svg?maxAge=2592000"></a>
+<a href="https://cocoapods.org"><img src="https://img.shields.io/cocoapods/dt/Baggage.svg?maxAge=2592000"></a>
+<a href="https://tldrlegal.com/license/mit-license"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat"></a>
+</p>
+
+# At a Glance
 
 `Baggage` is a set of extensions for iOS SDK that simplify work with clipboard. Absolutely compatible with standard `UIPasteboard` class.
 
