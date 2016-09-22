@@ -21,7 +21,7 @@ or
 
 - Use `Baggage` cocoapod
 
-**Note**:
+**Note**: For Swift 2.x use `Baggage v1.0`. For Swift 3.0 use `Baggage v3.0`.
 
 ## Requirements
 
