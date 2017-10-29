@@ -12,18 +12,14 @@ class MainViewController: UIViewController, UITextFieldDelegate {
 
     // MARK: Class variables & properties
     
-    
     // MARK: Class methods
     
-    
     // MARK: Initializers
-    
     
     // MARK: Deinitializer
     
     deinit {
     }
-    
     
     // MARK: Outlets
     
@@ -33,7 +29,6 @@ class MainViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet private weak var copyAndPasteButton: UIButton!
     
-    
     // MARK: Variables & properties
     
     override var prefersStatusBarHidden: Bool {
@@ -42,17 +37,14 @@ class MainViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
-    
     // MARK: Public methods
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         // Initialize source text field
         
         sourceTextField.delegate = self
-        
         
         // Initialize copy and paste button
         
@@ -64,9 +56,7 @@ class MainViewController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    
     // MARK: Private methods
-    
     
     // MARK: Actions
     
@@ -75,12 +65,10 @@ class MainViewController: UIViewController, UITextFieldDelegate {
         
         sourceTextField.bg_copyTextToClipboard()
         
-        
         // Paste source text to result text field
         
         resultTextField.bg_pasteTextFromClipboard()
     }
-    
     
     // MARK: Protocol methods
     
