@@ -14,20 +14,18 @@ public extension UITextView {
     
     // MARK: Public static methods
     
-    
     // MARK: Private static methods
-    
     
     // MARK: Public object methods
     
     public func bg_copyTextToClipboard() -> Bool {
         let currentText = text ?? ""
-        let copiedToClipboard = currentText.bg_copyToClipboard()
+        let copiedToClipboard = currentText.bg.copy()
         return copiedToClipboard
     }
     
     public func bg_pasteTextFromClipboard() -> Bool {
-        let textFromClipboard = String.bg_stringFromClipboard()
+        let textFromClipboard = String.bg.fromClipboard
         
         guard textFromClipboard != nil else {
             return false
@@ -38,8 +36,6 @@ public extension UITextView {
         return true
     }
     
-    
     // MARK: Private object methods
     
 }
-

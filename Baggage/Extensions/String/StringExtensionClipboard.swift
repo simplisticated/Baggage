@@ -11,33 +11,28 @@ import UIKit
 
 public extension String {
     
-    // MARK: Public static methods
+    // MARK: Public static variables
     
-    public static func bg_stringFromClipboard() -> String? {
-        let pasteboard = UIPasteboard.general
-        let resultString = pasteboard.string
-        return resultString
+    public static var bg: StringClipboardReader {
+        get {
+            return StringClipboardReader()
+        }
     }
     
+    // MARK: Public static methods
     
     // MARK: Private static methods
     
+    // MARK: Public object variables
     
-    // MARK: Public object methods
-    
-    public func bg_copyToClipboard() -> Bool {
-        guard !isEmpty else {
-            return false
+    public var bg: ClipboardWriter {
+        get {
+            return ClipboardWriter(resource: .string(value: self))
         }
-        
-        let pasteboard = UIPasteboard.general
-        pasteboard.string = self
-        
-        return true
     }
     
+    // MARK: Public object methods
     
     // MARK: Private object methods
     
 }
-
