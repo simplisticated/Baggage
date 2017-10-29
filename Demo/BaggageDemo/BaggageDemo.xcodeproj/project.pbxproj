@@ -10,31 +10,14 @@
 		69ADF5B41C55793300A7D4BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ADF5B31C55793300A7D4BC /* AppDelegate.swift */; };
 		69ADF5BB1C55793300A7D4BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69ADF5BA1C55793300A7D4BC /* Assets.xcassets */; };
 		69ADF5BE1C55793300A7D4BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69ADF5BC1C55793300A7D4BC /* LaunchScreen.storyboard */; };
-		69ADF5C91C55793300A7D4BC /* BaggageDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ADF5C81C55793300A7D4BC /* BaggageDemoTests.swift */; };
-		69ADF5D41C55793300A7D4BC /* BaggageDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ADF5D31C55793300A7D4BC /* BaggageDemoUITests.swift */; };
 		69ADF5E61C5579B200A7D4BC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ADF5E41C5579B200A7D4BC /* MainViewController.swift */; };
 		69ADF5E71C5579B200A7D4BC /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69ADF5E51C5579B200A7D4BC /* MainViewController.xib */; };
 		69C26E4A1D940A53005CE3ED /* StringExtensionClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C26E441D940A53005CE3ED /* StringExtensionClipboard.swift */; };
 		69C26E4B1D940A53005CE3ED /* UITextFieldExtensionClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C26E471D940A53005CE3ED /* UITextFieldExtensionClipboard.swift */; };
 		69C26E4C1D940A53005CE3ED /* UITextViewExtensionClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C26E491D940A53005CE3ED /* UITextViewExtensionClipboard.swift */; };
+		69F98AA41FA65AD70028392A /* StringClipboardReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F98AA11FA65AD60028392A /* StringClipboardReader.swift */; };
+		69F98AA51FA65AD70028392A /* ClipboardWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F98AA31FA65AD60028392A /* ClipboardWriter.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		69ADF5C51C55793300A7D4BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 69ADF5A81C55793300A7D4BC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 69ADF5AF1C55793300A7D4BC;
-			remoteInfo = BaggageDemo;
-		};
-		69ADF5D01C55793300A7D4BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 69ADF5A81C55793300A7D4BC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 69ADF5AF1C55793300A7D4BC;
-			remoteInfo = BaggageDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		69ADF5B01C55793300A7D4BC /* BaggageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaggageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,35 +25,17 @@
 		69ADF5BA1C55793300A7D4BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69ADF5BD1C55793300A7D4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69ADF5BF1C55793300A7D4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69ADF5C41C55793300A7D4BC /* BaggageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaggageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69ADF5C81C55793300A7D4BC /* BaggageDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaggageDemoTests.swift; sourceTree = "<group>"; };
-		69ADF5CA1C55793300A7D4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69ADF5CF1C55793300A7D4BC /* BaggageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaggageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69ADF5D31C55793300A7D4BC /* BaggageDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaggageDemoUITests.swift; sourceTree = "<group>"; };
-		69ADF5D51C55793300A7D4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69ADF5E41C5579B200A7D4BC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		69ADF5E51C5579B200A7D4BC /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		69C26E441D940A53005CE3ED /* StringExtensionClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionClipboard.swift; sourceTree = "<group>"; };
 		69C26E471D940A53005CE3ED /* UITextFieldExtensionClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensionClipboard.swift; sourceTree = "<group>"; };
 		69C26E491D940A53005CE3ED /* UITextViewExtensionClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewExtensionClipboard.swift; sourceTree = "<group>"; };
+		69F98AA11FA65AD60028392A /* StringClipboardReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringClipboardReader.swift; sourceTree = "<group>"; };
+		69F98AA31FA65AD60028392A /* ClipboardWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardWriter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		69ADF5AD1C55793300A7D4BC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69ADF5C11C55793300A7D4BC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69ADF5CC1C55793300A7D4BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				69ADF5B21C55793300A7D4BC /* BaggageDemo */,
-				69ADF5C71C55793300A7D4BC /* BaggageDemoTests */,
-				69ADF5D21C55793300A7D4BC /* BaggageDemoUITests */,
 				69ADF5B11C55793300A7D4BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				69ADF5B01C55793300A7D4BC /* BaggageDemo.app */,
-				69ADF5C41C55793300A7D4BC /* BaggageDemoTests.xctest */,
-				69ADF5CF1C55793300A7D4BC /* BaggageDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,24 +72,6 @@
 				69ADF5BF1C55793300A7D4BC /* Info.plist */,
 			);
 			path = BaggageDemo;
-			sourceTree = "<group>";
-		};
-		69ADF5C71C55793300A7D4BC /* BaggageDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				69ADF5C81C55793300A7D4BC /* BaggageDemoTests.swift */,
-				69ADF5CA1C55793300A7D4BC /* Info.plist */,
-			);
-			path = BaggageDemoTests;
-			sourceTree = "<group>";
-		};
-		69ADF5D21C55793300A7D4BC /* BaggageDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				69ADF5D31C55793300A7D4BC /* BaggageDemoUITests.swift */,
-				69ADF5D51C55793300A7D4BC /* Info.plist */,
-			);
-			path = BaggageDemoUITests;
 			sourceTree = "<group>";
 		};
 		69ADF5E11C5579A800A7D4BC /* Flows */ = {
@@ -167,6 +110,7 @@
 		69C26E411D940A53005CE3ED /* Baggage */ = {
 			isa = PBXGroup;
 			children = (
+				69F98A9E1FA65AD60028392A /* Classes */,
 				69C26E421D940A53005CE3ED /* Extensions */,
 			);
 			name = Baggage;
@@ -215,6 +159,39 @@
 			path = UITextView;
 			sourceTree = "<group>";
 		};
+		69F98A9E1FA65AD60028392A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				69F98A9F1FA65AD60028392A /* Clipboard */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		69F98A9F1FA65AD60028392A /* Clipboard */ = {
+			isa = PBXGroup;
+			children = (
+				69F98AA01FA65AD60028392A /* Reader */,
+				69F98AA21FA65AD60028392A /* Writer */,
+			);
+			path = Clipboard;
+			sourceTree = "<group>";
+		};
+		69F98AA01FA65AD60028392A /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				69F98AA11FA65AD60028392A /* StringClipboardReader.swift */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		69F98AA21FA65AD60028392A /* Writer */ = {
+			isa = PBXGroup;
+			children = (
+				69F98AA31FA65AD60028392A /* ClipboardWriter.swift */,
+			);
+			path = Writer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -235,42 +212,6 @@
 			productReference = 69ADF5B01C55793300A7D4BC /* BaggageDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		69ADF5C31C55793300A7D4BC /* BaggageDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 69ADF5DB1C55793300A7D4BC /* Build configuration list for PBXNativeTarget "BaggageDemoTests" */;
-			buildPhases = (
-				69ADF5C01C55793300A7D4BC /* Sources */,
-				69ADF5C11C55793300A7D4BC /* Frameworks */,
-				69ADF5C21C55793300A7D4BC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				69ADF5C61C55793300A7D4BC /* PBXTargetDependency */,
-			);
-			name = BaggageDemoTests;
-			productName = BaggageDemoTests;
-			productReference = 69ADF5C41C55793300A7D4BC /* BaggageDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		69ADF5CE1C55793300A7D4BC /* BaggageDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 69ADF5DE1C55793300A7D4BC /* Build configuration list for PBXNativeTarget "BaggageDemoUITests" */;
-			buildPhases = (
-				69ADF5CB1C55793300A7D4BC /* Sources */,
-				69ADF5CC1C55793300A7D4BC /* Frameworks */,
-				69ADF5CD1C55793300A7D4BC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				69ADF5D11C55793300A7D4BC /* PBXTargetDependency */,
-			);
-			name = BaggageDemoUITests;
-			productName = BaggageDemoUITests;
-			productReference = 69ADF5CF1C55793300A7D4BC /* BaggageDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -285,18 +226,6 @@
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = AFEG59EG8E;
 						LastSwiftMigration = 0800;
-					};
-					69ADF5C31C55793300A7D4BC = {
-						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = AFEG59EG8E;
-						LastSwiftMigration = 0800;
-						TestTargetID = 69ADF5AF1C55793300A7D4BC;
-					};
-					69ADF5CE1C55793300A7D4BC = {
-						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = AFEG59EG8E;
-						LastSwiftMigration = 0800;
-						TestTargetID = 69ADF5AF1C55793300A7D4BC;
 					};
 				};
 			};
@@ -314,8 +243,6 @@
 			projectRoot = "";
 			targets = (
 				69ADF5AF1C55793300A7D4BC /* BaggageDemo */,
-				69ADF5C31C55793300A7D4BC /* BaggageDemoTests */,
-				69ADF5CE1C55793300A7D4BC /* BaggageDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -331,20 +258,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69ADF5C21C55793300A7D4BC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69ADF5CD1C55793300A7D4BC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -354,42 +267,15 @@
 			files = (
 				69C26E4A1D940A53005CE3ED /* StringExtensionClipboard.swift in Sources */,
 				69C26E4C1D940A53005CE3ED /* UITextViewExtensionClipboard.swift in Sources */,
+				69F98AA41FA65AD70028392A /* StringClipboardReader.swift in Sources */,
 				69ADF5B41C55793300A7D4BC /* AppDelegate.swift in Sources */,
+				69F98AA51FA65AD70028392A /* ClipboardWriter.swift in Sources */,
 				69C26E4B1D940A53005CE3ED /* UITextFieldExtensionClipboard.swift in Sources */,
 				69ADF5E61C5579B200A7D4BC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69ADF5C01C55793300A7D4BC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69ADF5C91C55793300A7D4BC /* BaggageDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69ADF5CB1C55793300A7D4BC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69ADF5D41C55793300A7D4BC /* BaggageDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		69ADF5C61C55793300A7D4BC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 69ADF5AF1C55793300A7D4BC /* BaggageDemo */;
-			targetProxy = 69ADF5C51C55793300A7D4BC /* PBXContainerItemProxy */;
-		};
-		69ADF5D11C55793300A7D4BC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 69ADF5AF1C55793300A7D4BC /* BaggageDemo */;
-			targetProxy = 69ADF5D01C55793300A7D4BC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		69ADF5BC1C55793300A7D4BC /* LaunchScreen.storyboard */ = {
@@ -499,7 +385,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.BaggageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -513,63 +399,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.BaggageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		69ADF5DC1C55793300A7D4BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = AFEG59EG8E;
-				INFOPLIST_FILE = BaggageDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.BaggageDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaggageDemo.app/BaggageDemo";
-			};
-			name = Debug;
-		};
-		69ADF5DD1C55793300A7D4BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = AFEG59EG8E;
-				INFOPLIST_FILE = BaggageDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.BaggageDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaggageDemo.app/BaggageDemo";
-			};
-			name = Release;
-		};
-		69ADF5DF1C55793300A7D4BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = AFEG59EG8E;
-				INFOPLIST_FILE = BaggageDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.BaggageDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = BaggageDemo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		69ADF5E01C55793300A7D4BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = AFEG59EG8E;
-				INFOPLIST_FILE = BaggageDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.BaggageDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = BaggageDemo;
-				USES_XCTRUNNER = YES;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -590,24 +420,6 @@
 			buildConfigurations = (
 				69ADF5D91C55793300A7D4BC /* Debug */,
 				69ADF5DA1C55793300A7D4BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		69ADF5DB1C55793300A7D4BC /* Build configuration list for PBXNativeTarget "BaggageDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				69ADF5DC1C55793300A7D4BC /* Debug */,
-				69ADF5DD1C55793300A7D4BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		69ADF5DE1C55793300A7D4BC /* Build configuration list for PBXNativeTarget "BaggageDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				69ADF5DF1C55793300A7D4BC /* Debug */,
-				69ADF5E01C55793300A7D4BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
