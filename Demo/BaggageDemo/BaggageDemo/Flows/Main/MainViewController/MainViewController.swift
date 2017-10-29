@@ -63,11 +63,11 @@ class MainViewController: UIViewController, UITextFieldDelegate {
     @IBAction func copyAndPasteButtonTapped(sender: AnyObject) {
         // Copy source text to clipboard
         
-        sourceTextField.bg_copyTextToClipboard()
+        sourceTextField.bg.copy()
         
         // Paste source text to result text field
         
-        resultTextField.bg_pasteTextFromClipboard()
+        resultTextField.bg.paste()
     }
     
     // MARK: Protocol methods

@@ -15,8 +15,9 @@
 		69C26E4A1D940A53005CE3ED /* StringExtensionClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C26E441D940A53005CE3ED /* StringExtensionClipboard.swift */; };
 		69C26E4B1D940A53005CE3ED /* UITextFieldExtensionClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C26E471D940A53005CE3ED /* UITextFieldExtensionClipboard.swift */; };
 		69C26E4C1D940A53005CE3ED /* UITextViewExtensionClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C26E491D940A53005CE3ED /* UITextViewExtensionClipboard.swift */; };
-		69F98AA41FA65AD70028392A /* StringClipboardReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F98AA11FA65AD60028392A /* StringClipboardReader.swift */; };
-		69F98AA51FA65AD70028392A /* ClipboardWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F98AA31FA65AD60028392A /* ClipboardWriter.swift */; };
+		69F98AAC1FA65DB80028392A /* StringClipboardReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F98AA91FA65DB80028392A /* StringClipboardReader.swift */; };
+		69F98AAD1FA65DB80028392A /* ClipboardWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F98AAB1FA65DB80028392A /* ClipboardWriter.swift */; };
+		69F98AAF1FA65DC80028392A /* ViewClipboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F98AAE1FA65DC80028392A /* ViewClipboardManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,9 @@
 		69C26E441D940A53005CE3ED /* StringExtensionClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionClipboard.swift; sourceTree = "<group>"; };
 		69C26E471D940A53005CE3ED /* UITextFieldExtensionClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensionClipboard.swift; sourceTree = "<group>"; };
 		69C26E491D940A53005CE3ED /* UITextViewExtensionClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewExtensionClipboard.swift; sourceTree = "<group>"; };
-		69F98AA11FA65AD60028392A /* StringClipboardReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringClipboardReader.swift; sourceTree = "<group>"; };
-		69F98AA31FA65AD60028392A /* ClipboardWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardWriter.swift; sourceTree = "<group>"; };
+		69F98AA91FA65DB80028392A /* StringClipboardReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringClipboardReader.swift; sourceTree = "<group>"; };
+		69F98AAB1FA65DB80028392A /* ClipboardWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardWriter.swift; sourceTree = "<group>"; };
+		69F98AAE1FA65DC80028392A /* ViewClipboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewClipboardManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,24 +172,41 @@
 		69F98A9F1FA65AD60028392A /* Clipboard */ = {
 			isa = PBXGroup;
 			children = (
-				69F98AA01FA65AD60028392A /* Reader */,
-				69F98AA21FA65AD60028392A /* Writer */,
+				69F98AA71FA65DB80028392A /* Data */,
+				69F98AA61FA65DB80028392A /* UI */,
 			);
 			path = Clipboard;
 			sourceTree = "<group>";
 		};
-		69F98AA01FA65AD60028392A /* Reader */ = {
+		69F98AA61FA65DB80028392A /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				69F98AA11FA65AD60028392A /* StringClipboardReader.swift */,
+				69F98AAE1FA65DC80028392A /* ViewClipboardManager.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		69F98AA71FA65DB80028392A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				69F98AA81FA65DB80028392A /* Reader */,
+				69F98AAA1FA65DB80028392A /* Writer */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		69F98AA81FA65DB80028392A /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				69F98AA91FA65DB80028392A /* StringClipboardReader.swift */,
 			);
 			path = Reader;
 			sourceTree = "<group>";
 		};
-		69F98AA21FA65AD60028392A /* Writer */ = {
+		69F98AAA1FA65DB80028392A /* Writer */ = {
 			isa = PBXGroup;
 			children = (
-				69F98AA31FA65AD60028392A /* ClipboardWriter.swift */,
+				69F98AAB1FA65DB80028392A /* ClipboardWriter.swift */,
 			);
 			path = Writer;
 			sourceTree = "<group>";
@@ -267,9 +286,10 @@
 			files = (
 				69C26E4A1D940A53005CE3ED /* StringExtensionClipboard.swift in Sources */,
 				69C26E4C1D940A53005CE3ED /* UITextViewExtensionClipboard.swift in Sources */,
-				69F98AA41FA65AD70028392A /* StringClipboardReader.swift in Sources */,
+				69F98AAC1FA65DB80028392A /* StringClipboardReader.swift in Sources */,
+				69F98AAF1FA65DC80028392A /* ViewClipboardManager.swift in Sources */,
 				69ADF5B41C55793300A7D4BC /* AppDelegate.swift in Sources */,
-				69F98AA51FA65AD70028392A /* ClipboardWriter.swift in Sources */,
+				69F98AAD1FA65DB80028392A /* ClipboardWriter.swift in Sources */,
 				69C26E4B1D940A53005CE3ED /* UITextFieldExtensionClipboard.swift in Sources */,
 				69ADF5E61C5579B200A7D4BC /* MainViewController.swift in Sources */,
 			);
