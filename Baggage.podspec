@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Baggage"
-  s.version      = "3.0"
+  s.version      = "4.0"
   s.summary      = "Simplifying work with clipboard in iOS."
 
   # This description is used to generate tags and improve search results.
@@ -56,7 +56,7 @@ Baggage is a set of extensions for iOS SDK that simplify work with clipboard. Wr
   s.author             = { "Igor Matyushkin" => "igormatyushkin014@gmail.com" }
   #s.author    = "Igor Matyushkin"
   # s.authors            = { "Igor Matyushkin" => "igormatyushkin014@gmail.com" }
-  s.social_media_url   = "https://twitter.com/igormatyushkin1"
+  s.social_media_url   = "https://twitter.com/imatyushkin1"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -65,7 +65,7 @@ Baggage is a set of extensions for iOS SDK that simplify work with clipboard. Wr
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
