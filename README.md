@@ -34,13 +34,13 @@ Copy string to clipboard:
 
 ```swift
 let str = "Some text"
-str.bg_copyToClipboard()
+str.bg.copy()
 ```
 
 Get string from clipboard:
 
 ```swift
-let str = String.bg_stringFromClipboard()
+let str = String.bg.fromClipboard
 NSLog(str) // Some text
 ```
 
@@ -51,13 +51,13 @@ Copy text to clipboard:
 ```swift
 let textField = UITextField()
 textField.text = "Some text"
-textField.bg_copyTextToClipboard()
+textField.bg.copy()
 ```
 
 Paste text from clipboard:
 
 ```swift
-textField.bg_pasteTextFromClipboard()
+textField.bg.paste()
 NSLog(textField.text!) // Some text
 ```
 
@@ -68,13 +68,13 @@ Copy text to clipboard:
 ```swift
 let textView = UITextView()
 textView.text = "Some text"
-textView.bg_copyTextToClipboard()
+textView.bg.copy()
 ```
 
 Paste text from clipboard:
 
 ```swift
-textView.bg_pasteTextFromClipboard()
+textView.bg.paste()
 NSLog(textView.text) // Some text
 ```
 
