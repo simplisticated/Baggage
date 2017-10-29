@@ -23,8 +23,8 @@ or
 
 ## Requirements
 
-* iOS 9.0 and later
-* Xcode 8 and later
+* iOS 9 and later
+* Xcode 9 and later
 
 ## Usage
 
